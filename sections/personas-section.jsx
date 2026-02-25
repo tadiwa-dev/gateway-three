@@ -8,22 +8,22 @@ export default function PersonasSection() {
         {
             title: 'Leadership Team',
             icon: Users,
-            description: 'Access real-time analytics, oversee application and cohort performance, monitor equity metrics, and make data informed strategic decisions across the program.'
+            description: 'Gain clear visibility into the vibrant communities you are building. Effortlessly monitor equity, track growth, and ensure your programs are making a real, inclusive impact.'
         },
         {
-            title: 'Consultants',
+            title: 'Reviewers & Consultants',
             icon: UserCheck,
-            description: 'Review applications, analyze feedback data, manage content inputs, and support program optimization through structured dashboards and AI insights.'
+            description: 'Spend less time wrestling with spreadsheets and more time reading inspiring stories. Easily collaborate, provide feedback, and uplift the next generation of leaders.'
         },
         {
-            title: 'Inaugural Cohort',
+            title: 'The Inaugural Cohort',
             icon: GraduationCap,
-            description: 'Engage with program content, complete surveys and reflections, participate in working groups, and track their progress within the platform.'
+            description: 'A seamless, engaging space to begin their journey. Connect with peers, share valuable reflections, and focus entirely on personal and professional growth.'
         },
         {
-            title: 'Second Cohort',
+            title: 'Future Cohorts',
             icon: UserPlus,
-            description: 'Access onboarding materials, submit required information, engage in learning activities, and contribute feedback to support continuous program improvement.'
+            description: 'Experience a welcoming onboarding process. Easily submit materials, dive into learning, and help shape the future of the program with their unique voices.'
         }
     ];
 
@@ -36,7 +36,7 @@ export default function PersonasSection() {
                         Tailored for Every <span className="bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent">Stakeholder</span>
                     </h2>
                     <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-                        The paNhari Gateway Application is designed to unify the experience for everyone involved in your program, ensuring clear pathways and structured insights.
+                        The paNhari Gateway Application is crafted to respect everyone\'s time and elevate the experience for every single person uniquely interacting with your program.
                     </p>
                 </div>
 

@@ -5,44 +5,44 @@ import SectionTitle from "@/components/section-title";
 export default function FeaturesSection() {
     const features = [
         {
-            title: 'AI-Powered Data Exploration Chatbot',
-            description: 'Transforms complex program data into accessible, real-time insights through natural language interaction. The system enables leadership and coordinators to explore applicant demographics, participation trends, representation gaps, and thematic reflections without requiring technical expertise.',
+            title: 'Conversational Insights Chatbot',
+            description: 'Have a conversation with your data. Ask plain-English questions to discover the diverse demographics, rich experiences, and unique voices hidden within your applicant pool—no technical expertise required.',
             image: '/assets/AI-Powered Data Exploration Chatbot 2.png',
             imageAlt: 'AI-Powered Data Exploration Chatbot'
         },
         {
-            title: 'Centralized Evidence-Based Decision Making',
-            description: 'By centralizing quantitative and qualitative data into one intelligent interface, the platform strengthens evidence-based decision-making, enhances safeguarding oversight, and increases program responsiveness across global chapters.',
+            title: 'See the Full Picture',
+            description: 'We bring together the quantitative metrics and the personal narratives into one intuitive space. Understand not just the "what," but the "who" and the "why," leading to fairer, more empathetic decisions.',
             image: '/assets/AI-Powered Data Exploration Chatbot.png',
             imageAlt: 'Centralized Data Insights'
         },
         {
-            title: 'Integrated Program Analytics Dashboard',
-            description: 'This infrastructure enables to track program reach, assess equity metrics, monitor conversion rates from draft to submission, and identify participation patterns across partner universities globally. It provides a structured, real-time overview of applicant and cohort data through interactive visualizations and performance indicators.',
+            title: 'Impact Analytics Dashboard',
+            description: 'Visualize your program\'s global reach. See where your applicants are coming from, identify communities that are underrepresented, and actively work to make your opportunities accessible to everyone.',
             image: '/assets/Integrated Program Analytics Dashboard 2.png',
             imageAlt: 'Integrated Program Analytics Dashboard'
         },
         {
-            title: 'Application Review & Selection Governance',
-            description: 'The For Youth, By Youth Application Review Dashboard provides structured oversight of the full selection pipeline, from draft submissions to final review completion. Through funnel visualizations and reviewer performance tracking, the system enables leadership to monitor application flow, identify bottlenecks, assess geographic distribution, and ensure timely evaluation.',
+            title: 'Collaborative Review Spaces',
+            description: 'Reading through applications should be inspiring, not exhausting. We provide a clean, organized environment for your team to collaboratively evaluate, discuss, and uplift the most promising candidates.',
             image: '/assets/Application Review & Selection Governance System.png',
             imageAlt: 'Application Review & Selection Governance System'
         },
         {
-            title: 'Role-Based Access Control (RBAC) & Data Governance',
-            description: 'Secure, structured, and compliant management of user permissions across the organization. This governance layer defines clear access levels for administrators, decision-makers, reviewers, and students, guaranteeing that sensitive applicant data is only accessible to authorized roles.',
+            title: 'Safe & Secure Environments',
+            description: 'Trust is the foundation of any community. We ensure that every applicant\'s personal story and sensitive information is protected and only seen by the right pairs of eyes.',
             image: '/assets/Role-Based Access Control (RBAC) & Data Governance.png',
             imageAlt: 'Role-Based Access Control'
         },
         {
-            title: 'Student Management & Cohort Oversight System',
-            description: 'Centralizes participant records, cohort assignments, and engagement status. With advanced filtering and organized oversight, the system ensures operational clarity, data integrity, and efficient coordination across global chapters. It enables real-time student tracking, streamlined onboarding, and secure data export.',
+            title: 'Nurture Your Cohorts',
+            description: 'The journey doesn\'t end at acceptance. Keep your cohorts engaged, track their growth, and provide personalized support throughout their entire program experience.',
             image: '/assets/Student Management & Cohort Oversight System.png',
             imageAlt: 'Student Management System'
         },
         {
-            title: 'Content & Feedback Intelligence System',
-            description: 'The Content module shows surveys, polls, and feedback instruments across webinars, working groups, and mentorship programs within a structured management interface. Designed to support continuous improvement, this system enables response tracking, and organized categorization by thematic area.',
+            title: 'Listen and Evolve',
+            description: 'Create continuous feedback loops. Easily gather thoughts, reflections, and suggestions from your participants so your programs can constantly evolve to better serve their needs.',
             image: '/assets/Content & Feedback Intelligence System.png',
             imageAlt: 'Content & Feedback Intelligence System'
         }
@@ -57,7 +57,7 @@ export default function FeaturesSection() {
                         Everything You Need in <span className="bg-gradient-to-r from-indigo-500 to-indigo-800 bg-clip-text text-transparent">One Place</span>
                     </h2>
                     <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-                        A unified platform to manage the whole lifecycle from applying to reviewing to accepted or rejected, built to empower human-centered decision making.
+                        A unified platform designed to remove the friction from program management, allowing you to dedicate your energy to the people driving global change.
                     </p>
                 </div>
 

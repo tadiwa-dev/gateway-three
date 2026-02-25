@@ -61,10 +61,10 @@ export default function HeroSection() {
             <h1
                 className="text-4xl md:text-6xl/18 text-center font-semibold max-w-4xl mt-5 bg-gradient-to-r from-black to-[#748298] text-transparent bg-clip-text">
                 paNhari Gateway Application<br />
-                <span className="bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent">AI-Driven Impact for Global Change</span>
+                <span className="bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent">Empowering the People Behind the Programs</span>
             </h1>
             <p className="text-slate-600 md:text-lg max-md:px-2 text-center max-w-2xl mt-5">
-                Centralize your operations. Manage everything from capturing applicant details to reviewing and selecting candidates, all while seamlessly handling email communications in one unified platform.
+                Every application is a story. Every cohort is a community. Free your team from administrative burden and focus on what truly matters: discovering and nurturing global talent.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mt-8">
