@@ -1,6 +1,7 @@
 'use client';
 
 import SectionTitle from "@/components/section-title";
+import { FeaturesSectionWithHoverEffects } from "@/components/ui/feature-section-with-hover-effects";
 
 export default function FeaturesSection() {
     const features = [
@@ -61,7 +62,12 @@ export default function FeaturesSection() {
                     </p>
                 </div>
 
+                <FeaturesSectionWithHoverEffects />
+
+                <div className="border-t border-gray-100 my-16" />
+
                 <div className="space-y-32">
+
                     {features.map((feature, index) => (
                         <div key={index} className={`flex flex-col md:flex-row items-center gap-12 lg:gap-20 ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
                             <div className="flex-1 space-y-6">
