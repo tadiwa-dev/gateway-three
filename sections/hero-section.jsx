@@ -80,7 +80,7 @@ export default function HeroSection() {
                 className="text-4xl md:text-6xl/18 text-center font-semibold max-w-4xl mt-5 bg-gradient-to-r from-black to-[#748298] text-transparent bg-clip-text flex flex-col items-center">
                 <span>paNhari Gateway Application</span>
                 <span className="flex flex-wrap items-center justify-center gap-x-2 w-full mt-2">
-                    <span className="bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent">Empowering the People Behind the</span>
+                    <span className="bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent whitespace-nowrap">Empowering the People Behind the</span>
                     <span className="relative flex justify-center overflow-hidden text-center md:pb-4 md:pt-1 w-[200px] md:w-[320px] lg:w-[380px]">
                         &nbsp;
                         {titles.map((title, index) => (
