@@ -1,9 +1,27 @@
 'use client';
 
 import { ArrowRightIcon, CheckIcon, CopyIcon } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function HeroSection() {
+    const [titleNumber, setTitleNumber] = useState(0);
+    const titles = useMemo(
+        () => ["Programs", "Communities", "Initiatives", "Missions", "Futures"],
+        []
+    );
+
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+            if (titleNumber === titles.length - 1) {
+                setTitleNumber(0);
+            } else {
+                setTitleNumber(titleNumber + 1);
+            }
+        }, 2000);
+        return () => clearTimeout(timeoutId);
+    }, [titleNumber, titles]);
+
     const handleCopy = () => {
         setIsCopied(true);
         navigator.clipboard.writeText(installCommand);
@@ -59,9 +77,35 @@ export default function HeroSection() {
             </div>
 
             <h1
-                className="text-4xl md:text-6xl/18 text-center font-semibold max-w-4xl mt-5 bg-gradient-to-r from-black to-[#748298] text-transparent bg-clip-text">
-                paNhari Gateway Application<br />
-                <span className="bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent">Empowering the People Behind the Programs</span>
+                className="text-4xl md:text-6xl/18 text-center font-semibold max-w-4xl mt-5 bg-gradient-to-r from-black to-[#748298] text-transparent bg-clip-text flex flex-col items-center">
+                <span>paNhari Gateway Application</span>
+                <span className="flex flex-wrap items-center justify-center gap-x-2 w-full mt-2">
+                    <span className="bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent">Empowering the People Behind the</span>
+                    <span className="relative flex overflow-hidden text-left md:pb-4 md:pt-1 w-[160px] md:w-[260px]">
+                        &nbsp;
+                        {titles.map((title, index) => (
+                            <motion.span
+                                key={index}
+                                className="absolute font-semibold bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent left-0 top-0 md:top-1 w-full"
+                                initial={{ opacity: 0, y: "-100" }}
+                                transition={{ type: "spring", stiffness: 50 }}
+                                animate={
+                                    titleNumber === index
+                                        ? {
+                                            y: 0,
+                                            opacity: 1,
+                                        }
+                                        : {
+                                            y: titleNumber > index ? -150 : 150,
+                                            opacity: 0,
+                                        }
+                                }
+                            >
+                                {title}
+                            </motion.span>
+                        ))}
+                    </span>
+                </span>
             </h1>
             <p className="text-slate-600 md:text-lg max-md:px-2 text-center max-w-2xl mt-5">
                 Every application is a story. Every cohort is a community. Free your team from administrative burden and focus on what truly matters: discovering and nurturing global talent.
