@@ -81,7 +81,7 @@ export default function HeroSection() {
                 <span>paNhari Gateway Application</span>
                 <span className="flex flex-wrap items-center justify-center gap-x-2 w-full mt-2">
                     <span className="bg-gradient-to-b from-indigo-500 to-indigo-800 bg-clip-text text-transparent">Empowering the People Behind the</span>
-                    <span className="relative flex overflow-hidden text-left md:pb-4 md:pt-1 w-[200px] md:w-[320px] lg:w-[380px]">
+                    <span className="relative flex justify-center overflow-hidden text-center md:pb-4 md:pt-1 w-[200px] md:w-[320px] lg:w-[380px]">
                         &nbsp;
                         {titles.map((title, index) => (
                             <motion.span
